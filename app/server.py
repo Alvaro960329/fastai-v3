@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1081loQ-3sNPZa2QsfXYssWowt0hKtjfe'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1c0VCgcvDgYlN1OnN8OKK9SGEoo1xpRYl'
+export_file_name = 'modelo.pkl'
 
 classes = ['plasmodium','']
 path = Path(__file__).parent
